@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Font Stylesheet -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="textfield"></div>
+    <div id="start_map"></div>
+    <script>
+        function startMap() {
+            
+			var textfield = document.getElementById("textfield");
+			
+            // Map properties, make map unchangeable (zoom, panning), center on Switzerland, simple style 
+            var Zoom = 7.5;
+            var mapProp = {
+                draggable: false,
+                scrollwheel: false,
+                panControl: false,
+                maxZoom: Zoom,
+                minZoom: Zoom,
+                zoom: Zoom,
+                center: { lat: 46.818188, lng: 8.227512 },
+                disableDefaultUI: true,
+                styles: [{ "elementType": "labels", "stylers": [{ "visibility": "off" }] }, { "featureType": "administrative.land_parcel", "stylers": [{ "visibility": "off" }] }, { "featureType": "administrative.neighborhood", "stylers": [{ "visibility": "off" }] }, { "featureType": "road", "stylers": [{ "visibility": "off" }] }]
+            };
+            
+            var start_map = new google.maps.Map(document.getElementById('start_map'), mapProp);
+
+            var sizeImg = new google.maps.Size(50, 80);
+            var originImg = new google.maps.Point(0, 0);
+            var anchorImg = new google.maps.Point(25, 40);
+            
+            var images = [
+                { url: '../../src/_images/hausfrau_cover.jpg', scaledSize: sizeImg, origin: originImg, anchor: anchorImg },
+                { url: '../../src/_images/heidi_cover.jpg', scaledSize: sizeImg, origin: originImg, anchor: anchorImg },
+                { url: '../../src/_images/hotelDuLac_cover.jpg', scaledSize: sizeImg, origin: originImg, anchor: anchorImg },
+                { url: '../../src/_images/fearIndex_cover.jpg', scaledSize: sizeImg, origin: originImg, anchor: anchorImg },
+                { url: '../../src/_images/nightManager_cover.jpg', scaledSize: sizeImg, origin: originImg, anchor: anchorImg },
+                { url: '../../src/_images/wolkenbruchs_cover.jpg', scaledSize: sizeImg, origin: originImg, anchor: anchorImg }
+            ];
+            
+            var locations = [
+                ['Hausfrau', '47.497024', '8.726631'],
+                ['Heidi', '47.180612', '9.440742'],
+                ['Hotel du Lac', '46.508081', '6.842475'],
+                ['The Fear Index', '46.236176', '6.092502'],
+                ['The Night Manager', '47.050745', '8.730344'],
+                ['Wolkenbruchs Reise in die Arme einer Schickse', '47.270379', '8.226096']
+            ];
+            
+            var marker, i;
+            
+            for (i = 0; i < locations.length; i++) {
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                    map: start_map,
+                    icon: images[i],
+                    title: locations[i][0]
+                });
+
+                google.maps.event.addListener(marker, 'mouseover', (function (marker, i) {
+                    return function () {
+						textfield.style.display = "block";
+                        marker.setAnimation(google.maps.Animation.BOUNCE);
+                        document.getElementById("textfield").innerHTML = locations[i][0];
+                    }
+                })(marker, i));
+                google.maps.event.addListener(marker, 'mouseout', (function (marker, i) {				
+                    return function () {
+						textfield.style.display = "none";	
+                        marker.setAnimation(null);
+                        document.getElementById("textfield").innerHTML = "";
+                    }
+                })(marker, i));
+                google.maps.event.addListener(marker, 'click', (function (marker, i) {
+                    return function () {
+                        marker.setAnimation(null);						
+						switch (i){
+							case 0:
+							window.parent.app.setMap('hausfrau');
+							break;
+							case 1:
+							window.parent.app.setMap('heidi');
+							break;
+							case 2:
+							window.parent.app.setMap('hotelDuLac');
+							break;
+							case 3:
+							window.parent.app.setMap('fearindex');
+							break;
+							case 4:
+							window.parent.app.setMap('nightManager');
+							break;
+							case 5:
+							window.parent.app.setMap('wolkenbruchs');
+							break;
+							}
+                    }
+                })(marker, i));
+            };
+
+        }
+
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRbJPzS96RZDyYS0S-dPrUPfJElEURdTI&callback=startMap">
+    </script>
+</body>
+
+</html>

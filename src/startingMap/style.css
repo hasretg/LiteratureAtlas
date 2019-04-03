@@ -1,0 +1,27 @@
+html, body {
+    font-family: "Roboto", sans-serif;
+}
+
+#start_map {
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1;
+			}
+		
+#textfield {
+			position: absolute;
+            bottom: 0;
+            left: 50%;
+			transform: translate(-50%, 0);
+			font-family: "Roboto", sans-serif;
+			background-color: #627aa8;
+			text-align: center;
+			color: white;
+			font-size: 20px;
+			z-index: 10;
+			padding: 10px;
+			display: none;
+        }

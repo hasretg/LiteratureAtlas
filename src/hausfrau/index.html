@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Hausfrau</title>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div id="map"></div>
+
+   <!--Slider-->
+  <div class="slidercontainer">
+    <button class="playbutton" id="playbutton" onclick="play_function();"type="button"> </button>
+    <input id="slider" type="range" min="1" max="24" value="1" class="slider" step="1" list="tickmarks" onchange="showChapter(this.value) ">
+    <!--Change here desired min, max and step of the slider. A change in the javascript file is also needed-->
+  </div>        
+    
+    <script src="script.js"></script>    
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4KGuwtSat-RNM7An48SMCS_p7WtkxE3I&callback=mymap"></script>
+
+</body>
+
+</html>

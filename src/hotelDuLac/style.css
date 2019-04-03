@@ -1,0 +1,45 @@
+#map {
+  height: 100%;
+}
+/* Optional: Makes the sample page fill the window. */
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  height: 40px;
+  width: 100px;
+  position: absolute;
+}
+
+.play-button {
+  position: absolute;
+  left: calc(50% - 415px);
+  bottom: 10%;
+}
+
+.reset-button {
+  position: absolute;
+  left: calc(50% - 305px);
+  bottom: 10%;
+}
+
+.slider {
+  height: 50px;
+  width: 500px;
+  background-color: grey;
+  position: absolute;
+  left: calc(50% - 195px);
+  bottom: calc(10% - 5px);
+  border-radius: 7px;
+}
+
+#inner-slider {
+  height: 50px;
+  width: 0;
+  background-color: red;
+  border-radius: 7px;
+}

@@ -1,0 +1,49 @@
+{
+  "book": {
+    "title": "Night Manager",
+    "author": "John le Carré",
+    "desc":
+      "The Night Manager is an espionage novel by John le Carré, published in 1993. It is his first post-Cold War novel, detailing an undercover operation to bring down a major international arms dealer.",
+    "plot": [
+      "Jonathan Pine, a former British soldier, is the night manager. We first meet him in that capacity at the Hotel Meister Palace in Zurich. He is on duty when the \"worst man in the world\", Richard Onslow Roper, arrives with his entourage on a cold blizzardy night. Roper is a billionaire criminal who traffics illegal arms and drugs. The novel is about Pine's preoccupation with undoing Roper's criminal enterprise. This has begun earlier in Cairo, where Pine was working as the night manager at the luxurious Queen Nefertiti hotel, where he first encountered Roper.", "One night, Pine meets Sophie, a French-Arab woman who is the mistress of the hotel owner, Freddie Hamid, who has ties to Roper. Sophie characterises Roper as \"the worst man in the world\". She provides Pine with incriminating documents, asking him to forward them to the Egyptian authorities. Pine does so, but he disregards her warning that Roper has ties to British intelligence and forwards copies to a friend with MI6. A short time later, Sophie is found murdered.", "Several years later, while Pine is working in Switzerland, he is approached by ex-SIS Chief Leonard Burr and his senior civil servant backer Rex Goodhew, who have set up a small counter arms proliferation office and are planning an elaborate sting operation against Roper. Eager to avenge Sophie, Pine agrees to go undercover to infiltrate Roper's vast criminal empire. All the while however the operation is jeopardised by an inter-agency turf war within the intelligence community, with a suspicion of collusion with Roper somewhere.", "Burr's operation, a joint effort between Burr and sympathetic American colleagues, is code-named \"Limpet.\" The first stage is for Pine to fabricate a criminal identity and cover story and head to the Bahamas, where Roper's main residence is. Pine wins the confidence of Roper by \"rescuing\" his son from a phony kidnapping orchestrated by Burr, suffering a severe beating by the \"kidnappers\". When he recovers, Roper recruits Pine into his organisation, in preparation for his latest and largest illegal arms deal, with a Colombian drug cartel.", "The other part of Operation Limpet, unknown to Pine, is that the cartel's lawyer, Dr. Paul Apostoll, is secretly an informant for the American FBI and DEA. He explains to Burr that Roper has convinced the cartel to organise its bands of enforcers along the lines of a professional army, in preparation for the inevitable day when the Western nations to whom they peddle cocaine decide to take direct military action against them. Roper has agreed to supply the cartel with military-grade weaponry and training from experienced mercenaries, in exchange for a large shipment of cocaine, at a discount price, which Roper will then sell in Europe for an enormous profit.", "Apostoll plants the suggestion in his employers' minds that Roper's normal front man, Major Corkoran, is unreliable, forcing Roper to use Pine instead. Corkoran is convinced that Pine is a plant, but cannot find any proof. While signing the paperwork Pine gathers information to convict Roper. He has also fallen in love with Roper's innocent English mistress, Jed. However, corrupt factions within both the CIA and British Intelligence are profiting from the illegal arms trade and mount their own operation, which they call 'Flagship', to scuttle Burr's sting operation. They subtly threaten Goodhew, who backs off the whole case, and betray Apostoll's status as an informant to the cartels. Before being killed, Apostoll reveals Pine's true identity to Roper under torture. Pine is held captive on Roper's yacht and tortured.", "The outlines of Flagship are confessed to Burr by a drunken Harry Palfrey, privy to it all but now stricken by conscience. Burr also puts additional pressure on Palfrey by faking correspondence between himself, Goodhew, and his American partner to the effect that they know about Palfrey's duplicity, to get him to work for them. To save Pine, Burr sacrifices his operation and allows Roper to get away, by contacting Roper's \"satrap,\" Sir Anthony Bradshaw, and bluffing that he has enough evidence to send Roper to prison with harsh consequences for any associates, but will stay his hand if Pine and Jed are released unharmed. Bradshaw and Roper fall for the deception, and Roper complies. With his life falling apart, Palfrey commits suicide.", "Pine and Jed are saved. They live together in his isolated cottage at the Lanyon, a few miles from Land's End.", "Source: https://en.wikipedia.org/wiki/The_Night_Manager"]
+  },
+
+  "legend": {
+    "imageURL": ""
+  },
+
+  "maps": [
+    {
+      "name": "Interactive Map",
+      "characters": [],
+      "timeLine": [
+        {
+          "name": "",
+          "step": 0
+        }
+      ]
+    },
+
+    {
+      "name": "Chart Map",
+      "characters": [
+        {
+          "name": "Pine"
+        },
+        {
+          "name": "Roper"
+        },
+        {
+          "name": "Sophie"
+        },
+        {
+          "name": "Hamid"
+        },
+        {
+          "name": "Burr"
+        }
+      ],
+      "timeLine": []
+    }
+  ]
+}

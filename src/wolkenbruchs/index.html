@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Wolkenbruchs wunderliche Reise in die Arme einer Schickse</title>
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Stylesheet -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <!-- ImageViewer -->
+    <link rel="stylesheet" href="../../lib/imageViewer/imageviewer.css">
+	<script src="../../lib/jquery.min.js"></script>
+	<script src="../../lib/imageViewer/imageviewer.js"></script>
+	
+</head>
+
+<body>
+    <!-- Map div -->
+    <div id="map">
+        <div id="w_map1"></div>
+        <div id="w_map2">
+            <img class="center-fit" alt="map2" src="src/map2_w_legend2.svg" data-high-res-src="src/map2_w_legend2.svg">
+        </div>
+    </div>
+
+    <button id="nextLocation_hiddenButton" type="button" style="visibility: hidden">Next Location</button>
+
+    <div id="w_map1_tools">
+        <button class="zurichButton" onclick="centerOnZurich();">Back to Zurich</button>
+
+        <div id="textbox"></div>
+
+        <!-- Slider div -->
+        <div class="slidercontainer">
+            <button class="playbutton" id="playbutton" onclick="play_function();" type="button"> </button>
+            <input id="slider" type="range" min="0" max="48000" value="0" class="slider" step="300" list="tickmarks" oninput="showLocations(this.value); showSliderText(this.value);"
+                onchange="showLocations(this.value); showSliderText(this.value);">
+            <!--Change here desired min, max and step of the slider. A change in the javascript file is also needed-->
+        </div>
+    </div>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+    <!-- Google maps api script -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDRbJPzS96RZDyYS0S-dPrUPfJElEURdTI&callback=map1"></script>
+</body>
+
+</html>

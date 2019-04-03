@@ -1,0 +1,36 @@
+{
+  "book": {
+    "title": "Heidi",
+    "author": "Johanna Spyri",
+    "desc":
+     " ",
+    "plot": [
+	"Johanna Spyri's novel tells the story of an orphan girl Heidi. At the age of five, she is brought by her aunt to live with her grandfather Uncle Alp. Heidi spends there three years, living in a humble chalet high in the Swiss Alps. Despite her grandfather's gruff manner, the two form a close bond. Heidi also makes friends in the village, notably with Peter the goatherd. One day her aunt appears again and takes Heidi away to be a live-in companion to Klara, the invalid daughter of a wealthy businessman in Frankfurt. Heidi is out of place and increasingly unhappy in her new home. The housekeeper Frau Rottenmeier is hard on the Swiss girl and insists on calling Heidi by her full name Adelheid. Despite her growing friendship with Klara, Heidi suffers badly from homesickness and she starts sleepwalking. Finally, it is decided to send her back to her grandfather. Two girls stay in touch and Klara comes to visit the Alps in the summer. Peter destroys her wheelchair out of jealousy but as a result of this Klara finds the strength to walk again."
+	]
+  },
+
+  "legend": {
+    "imageURL": "heidi_legend.png"
+  },
+
+  "maps": [
+    {
+      "name": "Map of feelings",
+      "characters": [
+      ],
+      "timeLine": [
+        {
+          "name": "",
+          "step": 500
+        }
+      ]
+    },
+
+    {
+      "name": "Movies based on the book",
+      "characters": [
+      ],
+      "timeLine": []
+    }
+  ]
+}

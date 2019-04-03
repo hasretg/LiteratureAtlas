@@ -1,0 +1,39 @@
+{
+  "book": {
+    "title": "Hausfrau",
+    "author": "Jill Alexander Essbaum",
+    "desc": [
+      " "
+    ],
+    "plot": [
+      "Anna lives in comfort with her husband and three young children in Zurich. Anna has chosen this life far from home; but inside she is falling apart. Anna attempts to assert her agency in the only way that makes sense to her: by engaging in intense sexual affairs. But when Anna finds herself crossing a line, she will set off a terrible chain of events that will end in unspeakable tragedy."
+    ]
+  },
+
+  "legend": {
+    "imageURL": "hausfrau_legend.png"
+  },
+
+  "maps": [
+    {
+      "name": "Hausfrau - Map 1",
+      "characters": [
+        {
+          "name": "Anna"
+        }
+      ],
+      "timeLine": [
+        {
+          "name": "",
+          "step": 0
+        }
+      ]
+    },
+
+    {
+      "name": "Hausfrau Map 2",
+      "characters": [],
+      "timeLine": []
+    }
+  ]
+}

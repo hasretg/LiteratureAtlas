@@ -1,0 +1,35 @@
+{
+    "book": {
+        "title": "Hotel du Lac",
+        "author": ""
+    },
+	
+    "legend": {
+        "imageURL": ""
+    },
+	
+    "maps": [
+        {
+            "name": "Hotel du Lac Map 1",
+            "characters": [
+                {
+                    "name": "Char1"
+					"name": "Char2"
+					"name": "Char3"
+                },
+            ],
+            "timeLine": [
+                {
+                    "name": "",
+                    "step": 0
+                }
+            ]
+        },
+		
+        {
+            "name": "Hotel du Lac Map 2",
+            "characters": [],
+            "timeLine": []
+        }
+    ]
+}

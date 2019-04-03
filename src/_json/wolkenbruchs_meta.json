@@ -1,0 +1,34 @@
+{
+  "book": {
+    "title": "Wolkenbruchs wunder-\nliche Reise in die \nArme einer Schickse",
+    "author": "Thomas Meyer",
+    "desc":
+      "\"Wolkenbruchs wunderliche Reise in die Arme einer Schickese\" is a book about the story of Motti, a jewish student in Zurich. His mother tries to find a jewish women for him to marry but Motti does not like the recommendaitons of his mother and falls in love with the non-jewish girl Laura from his class at the university.",
+    "plot": [
+	"Der junge orthodoxe Jude Mordechai Wolkenbruch, kurz Motti, hat ein Problem: Die Frauen, die ihm seine mame als Heiratskandidatinnen vorsetzt, sehen alle so aus wie sie. Ganz im Gegensatz zu Laura, seiner adretten Mitstudentin – doch die ist leider eine schikse: Sie trägt Hosen, hat einen hübschen tuches, trinkt Gin Tonic und benutzt ungehörige Ausdrücke. Zweifel befallen Motti: Ist sein vorgezeichneter Weg wirklich der richtige für ihn? Sein Gehorsam gegenüber der mame mit ihren verstörenden Methoden schwindet. Dafür wächst seine Leidenschaft für Laura. Die Dinge nehmen ihren Lauf. Und Motti kann schon recht bald einen Schluss ziehen: Auch schiksn haben nicht alle Tassen im Schrank. (Source: https://www.salisverlag.com/title/thomas-meyer-wolkenbruchs-wunderliche-reise-die-arme-einer-schickse [19.05.2018])"
+	]
+  },
+
+  "legend": {
+    "imageURL": ""
+  },
+
+  "maps": [
+    {
+      "name": "Locations and emotions",
+	  "characters": [],
+      "timeLine": [
+        {
+          "name": "",
+          "step": 500
+        }
+      ]
+    },
+
+    {
+      "name": "Chart Map",
+	  "characters": [],
+      "timeLine": []
+    }
+  ]
+}

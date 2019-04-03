@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>About the Atlas</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+  <style>
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+    }
+
+    img {
+      padding: 0;
+      display: block;
+      margin: 0 auto;
+      max-height: 100%;
+      max-width: 100%;
+    }
+
+    .parallax {
+      background-image: url("../../src/_images/image_home.jpg");
+      opacity: 1;
+      min-height: 300px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 100;
+    }
+
+    .parallax2 {
+      background-image: url("../../src/_images/anastasia-zhenina-65700-unsplash.jpg");
+      opacity: 1;
+      min-height: 300px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 100;
+    }
+
+    .parallax3 {
+      background-image: url("../../src/_images/syd-wachs-120737-unsplash.jpg");
+      opacity: 1;
+      min-height: 300px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin: 100;
+    }
+
+    h1 {
+      position: absolute;
+      z-index: 5;
+      margin-left: 100px;
+      margin-top: 150px;
+      color: black;
+      font-family: "Roboto", sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+      text-shadow: 2px 2px #ffffff;
+
+    }
+
+    h2 {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding-top: 150px;
+      color: black;
+      font-family: "Roboto", sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+      text-shadow: 2px 2px #ffffff;
+    }
+
+    h3 {
+      position: relative;
+      z-index: 1;
+      text-align: right;
+      padding-top: 150px;
+      margin-right: 100px;
+      color: black;
+      font-family: "Roboto", sans-serif;
+      font-size: 40px;
+      font-weight: bold;
+      text-shadow: 2px 2px #ffffff;
+    }
+
+    p {
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    p1 {
+      text-align: left;
+      font-family: "Roboto", sans-serif;
+      font-size: 18px;
+      line-height: 1.5;
+
+    }
+
+    .text-box {
+      height: 200px;
+      padding: 50px;
+    }
+
+    .text-box_2 {
+      height: 300px;
+      padding: 100px;
+      margin-bottom: 75px;
+    }
+
+    .container {
+      position: relative;
+      /*height: 100%;*/
+      width: 35%;
+      float: right;
+      margin-top: 0px;
+      margin-left: 100px;
+    }
+
+    .image_students {
+      float: auto;
+      opacity: 0.75;
+    }
+
+    .overlay_text {
+      color: white;
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    .container:hover .overlay {
+      opacity: 0.85;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #b3b3b3;
+    }
+
+    .container2 {
+      position: relative;
+      float: auto;
+      height: 50%;
+      width: 10%;
+      float: right;
+      margin-top: 20px;
+      margin-left: 50px;
+    }
+
+    .container2:hover .overlay2 {
+      opacity: 0.85;
+    }
+
+    .overlay2 {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      transition: .5s ease;
+      background-color: #b3b3b3;
+    }
+
+    .overlay2_text {
+      color: white;
+      font-family: "Roboto", sans-serif;
+      font-size: 20px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <h1>Project Overview</h1>
+
+  <div class="parallax2"></div>
+
+  <div class="text-box">
+    <p>For the lecture "Multimedia Cartography" at ETH Zurich we got the task to create a web atlas with interactive maps based
+      on literature texts. Particularly, the focus of the chosen literature texts was on novels. The chosen novels are: "Hausfrau"
+      by Jill Alexander Essbaum, "Heidi" by Johanna Spyri , "The Night Manager" by John le Carre, "Hotel du Lac" by Anita
+      Brookner, "Wolkenbruchs wunderliche Reise in die Arme einer Schickse" by Thomas Meyer and "The Fear Index" by Robert
+      Harris.
+    </p>
+    <p>The entire workflow for this project involved a deep analysis of the chosen literature texts with respect to mappable
+      features, a decent visualization of the text analysis and additionally the creation of a web plattform, called web
+      atlas, as an umbrella for all the resulting literary maps.</p>
+  </div>
+
+  <div class="parallax"> <h2>About us</h2></div>
+
+  <div class="text-box_2">
+
+    <div class="container">
+      <img src="../../src/_images/students.JPG" class="image_students">
+      <div class="overlay">
+        <div class="overlay_text">Three member of the group, happily doing some mapping...</div>
+      </div>
+    </div>
+
+    <p1>We are a group of master students enrolled at ETH Zurich. Thanks to the enrollment in the lecture "Multimedia Cartography"
+      of the spring semester 2018, we got the rare opportunity to work in this project and to combine our passion for mapping,
+      our enthusiasm for interesting and thrilling stories, and our skills of programming.</p1>
+    <p>The work on this project during the semester was fun, but sometimes also very challenging. We faced numerous problems during our project. On the one hand, there were
+      problems regarding the implementation of our atlas. On the other hand, it was also sometimes a bit complicated to extract all the geographical information from the chosen literature.
+      Furthermore, since all the members in this group have different background in programming and mapping, it was sometimes also not easy to find fast a solution to a problem.
+      </p>
+      <p>Nonetheless, we are proud of what we have achieved this semester and are happy to share with you the final product of our atlas.</p>
+
+  </div>
+
+  <div class="parallax3"><h3>Copyrights</h3></div>
+
+  <div class="text-box">
+    <p>For the realisation of the atlas and the individual maps, we have used data and tools from the following sources:</p>
+
+    <div class="container2">
+      <a href="https://wikimediafoundation.org/wiki/Home" target="_blank">
+      <img src="../../src/_images/wikimedia_logo.png" class="image_students">
+      <div class="overlay2">
+        <div class="overlay2_text">Go to...</div>
+      </div>
+      </a>
+    </div>
+    <div class="container2">
+      <a href="https://gitlab.ethz.ch/users/sign_in" target="_blank">
+      <img src="../../src/_images/gitlab_logo.png" class="image_students">
+      <div class="overlay2">
+        <div class="overlay2_text">Go to...</div>
+      </div>
+      </a>
+    </div>
+    <div class="container2">
+      <a href="https://vuejs.org" target="_blank">
+      <img src="../../src/_images/vue_logo.jpeg" class="image_students">
+      <div class="overlay2">
+        <div class="overlay2_text">Go to...</div>
+      </div>
+      </a>
+    </div>
+    <div class="container2">
+      <a href="http://jquery.com" target="_blank">
+      <img src="../../src/_images/j_query_logo.jpg" class="image_students">
+      <div class="overlay2">
+        <div class="overlay2_text">Go to...</div>
+      </div>
+      </a>
+    </div>
+    <div class="container2">
+      <a href="http://maps.stamen.com/" target="_blank">
+      <img src="../../src/_images/stamen_logo.png" class="image_students">
+      <div class="overlay2">
+        <div class="overlay2_text">Go to...</div>
+      </div>
+      </a>
+    </div>
+    <div class="container2">
+      <a href="https://leafletjs.com" target="_blank">
+      <img src="../../src/_images/Leaflet_logo.png" class="image_students">
+      <div class="overlay2">
+        <div class="overlay2_text">Go to...</div>
+      </div>
+      </a>
+    </div>
+    <div class="container2">
+      <a href="https://www.google.com/maps" target="_blank">
+      <img src="../../src/_images/Google-Maps-Banner.jpg" class="image_students">
+      <div class="overlay2">
+        <div class="overlay2_text">Go to...</div>
+      </div>
+    </a>
+    </div>
+  </div>
+
+</body>
+
+</html>

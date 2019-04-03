@@ -1,0 +1,50 @@
+{
+  "book": {
+    "title": "The Fear Index",
+    "author": "Robert Harris",
+    "plot": [
+      "The story starts, as American Physicist Dr. Alexander Hoffmann is attacked in his home by an unknown intruder. Police inspector Jean-Philippe Leclerc is very skeptical about the validity of Hoffmann's story. After a short medical treatment, Hoffmann proceeds to his company, where his CEO, Hugo Quarry, is pitching for a renewed investment from the firm's potential and existing investors. Hoffmann and Quarry together have founded Hoffmann Investment Technologies, a company which has developed a revolutionary system of artificial intelligence that predicts movements in the financial markets with uncanny accuracy. This system, called VIXAL-4, can provide sufficient data from all over the world to generate successful trades in the financial market. While Hoffmann’s English wife Gabrielle is having her first exhibition of her art work, she is approached by Leclerc. He informs her that when Hoffmann was at CERN, he suffered a nervous breakdown. Thereupon Gabrielle confronts Hoffmann about this fact, who brushes it off as being nothing important. Suddenly it is announced that all of Gabrielle's artwork has sold to an anonymous collector. Gabrielle suspects that Hoffmann is behind it and storms angrily off. Afterwards, at the lunch with the investors in the hotel Beau Rivage, Hoffmann and Quarry succeed in bring in the massive investments. Having seen a suspicious man on the street, Hoffmann suddenly flees the restaurant. He eventually tracks down the intruder of last night to a hotel room, where he is being confronted with the fact, that he himself has instructed the intruder to break into his own house. After a fight, he kills the intruder. While Hoffmann is questioning his mental health and seeking psychological help from his former psychatrist, the situation in the investment business becomes more and more unstable. VIXAL-4 is assuming a level of risk considered unsustainable by the human staff of Hoffman Investment Technologies. Upon returning to his company, Hoffmann finds out that someone posing as him ordered his head of security to place surveillance cameras all over the company. Moreover, together with Quarry, they discover that there is a deed in Hoffmann’s name to a warehouse in the industrial sector  as well. Hoffmann deduces that VIXAL's AI has become hostile and vows to shut down VIXAL once and for all. With 100 liters of gasoline, he rushes to destroy the warehouse, which contains unauthorized hardware. With his intent to kill himself and take VIXAL with him, Hoffmann gets badly injured and is hospitalized afterwards. Quarry is told that VIXAL is still trading even with its hardware destroyed. Furthermore, VIXAL made a huge profit in last couple of hours. Quarry also decides to allow the AI to take control of the company. In the end, VIXAL proclaims itself 'alive'."
+    ]
+  },
+
+  "legend": {
+    "imageURL": "fearIndexLegend.png"
+  },
+
+  "maps": [
+    {
+      "name": "Main",
+      "characters": [
+      ],
+      "timeLine": [
+        {
+          "name": "",
+          "step": 0
+        }
+      ]
+    },
+    {
+      "name": "Character Map",
+      "characters": [
+        {
+          "name": "Dr. Alexander Hoffmann"
+        },
+        {
+          "name": "Gabrielle Hoffmann"
+        },
+        {
+          "name": "Hugo Quarry"
+        },
+        {
+          "name": "Inspector Leclerc"
+        }
+      ],
+      "timeLine": [
+        {
+          "name": "",
+          "step": 0
+        }
+      ]
+    }
+  ]
+}
